@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./resources/CSS/a.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>   
+        <h1>Dasmoto's Arts & Crafts</h1>
+        <h3>Brushes</h3>
+        <img src="https://content.codecademy.com/courses/freelance-1/unit-2/hacksaw.jpeg?_gl=1*jpllrw*_ga*MTE5Mjg2NTE3OS4xNjgwMDQxNzM5*_ga_3LRZM6TM9L*MTY4MDQwODc2MS4xNy4xLjE2ODA0MTA2OTEuNTguMC4w
+        ">
+
+        <h5>Hacksaw Brushes</h5>
+        <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="p1">Starting at $3.00 / brush.</span></p>
+        <h3>Frames</h3>
+        <img src="https://content.codecademy.com/courses/freelance-1/unit-2/frames.jpeg?_gl=1*jpllrw*_ga*MTE5Mjg2NTE3OS4xNjgwMDQxNzM5*_ga_3LRZM6TM9L*MTY4MDQwODc2MS4xNy4xLjE2ODA0MTA2OTEuNTguMC4w
+        ">
+        <h5>Art (assorted)</h5>
+        <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <span class="p2">Starting at $2.00 / frame.</span></p>
+        <h3>Paint</h3>
+        <img src="https://content.codecademy.com/courses/freelance-1/unit-2/finnish.jpeg?_gl=1*1ta1edu*_ga*MTE5Mjg2NTE3OS4xNjgwMDQxNzM5*_ga_3LRZM6TM9L*MTY4MDQwODc2MS4xNy4xLjE2ODA0MTA2OTEuNTguMC4w">
+        <h5>Clean Finnish Paint</h5>
+        <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork. <span class="p3">Starting at $5.00 / tube.</span></p>
+    </body>
+</html>
+
+CSS
+
+*{
+    font-family: Helvetica;
+
+}
+
+h1{
+    font-size: 100px;
+    font-weight: Bold;
+    Color: Khaki;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*jpllrw*_ga*MTE5Mjg2NTE3OS4xNjgwMDQxNzM5*_ga_3LRZM6TM9L*MTY4MDQwODc2MS4xNy4xLjE2ODA0MTA2OTEuNTguMC4w"
+    );
+    text-align: center;
+
+}
+
+h3{
+
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+
+}
+
+p{
+    font-weight: bold;
+    color: black;
+    
+}
+
+.p3{
+   font-weight: bold;
+   color: blue;
+}
+
+.p2{
+    font-weight: bold;
+    color: blue;
+ }
+
+ .p1{
+    font-weight: bold;
+    color: blue;
+ }
